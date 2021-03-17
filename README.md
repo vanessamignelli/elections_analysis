@@ -11,7 +11,7 @@ The purpose of this project was to complete an elections audit for the Coldorado
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.76, Visual Studio Code
+- Software: Python 3.7.6, Visual Studio Code 1.54.2
 
 ## Summary
 The analysis of the election shows that:
@@ -31,3 +31,5 @@ The analysis of the election shows that:
 
 ## Election-Audit Summary
 Since the code for the election audit creates a lot of empty lists, dictionaries and variables to use in our calculations are formulas, we can applying this code to any election, as long as the data in the csv file is formatted in the same way. The various loops and if statements in the code are written to extract the unique candidate names and county names, and use them to create a list to be later used within the code. Because we do not use predefined list, this methodology can be used with a completely new dataset. This further applies to the for loops and if statements that help to calculate total votes and vote percentages. 
+
+For larger elections there might be many candidates or many voting counties/regoins, providng a fully comprehensive list to be written to the text file may become confusing or overwhelming. We could modify the code through adding additional variables and then adjusting our for loops, if statements and print statements, to only print the top 3 candidates and counties with the most votes. Alternatively, we can adjust our print statements to only provide the winning candidate and highest turnout county/region to print to the text document. 
