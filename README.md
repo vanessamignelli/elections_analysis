@@ -30,4 +30,4 @@ The analysis of the election shows that:
   - Diana DeGette who received 73.8% of the vote and 272,892 number of votes.
 
 ## Election-Audit Summary
-
+Since the code for the election audit creates a lot of empty lists, dictionaries and variables to use in our calculations are formulas, we can applying this code to any election, as long as the data in the csv file is formatted in the same way. The various loops and if statements in the code are written to extract the unique candidate names and county names, and use them to create a list to be later used within the code. Because we do not use predefined list, this methodology can be used with a completely new dataset. This further applies to the for loops and if statements that help to calculate total votes and vote percentages. 
